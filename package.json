@@ -1,0 +1,27 @@
+{
+  "name": "JustTechNews",
+  "version": "1.0.0",
+  "description": "A blog like application that uses Sequelize to communicate between the application and database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-taylor6403/JustTechNews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-taylor6403/JustTechNews/issues"
+  },
+  "homepage": "https://github.com/d-taylor6403/JustTechNews#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
