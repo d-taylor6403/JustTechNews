@@ -4,8 +4,9 @@
   "description": "A blog like application that uses Sequelize to communicate between the application and database.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "bcrypt": "^5.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jest": "^26.6.3",
     "mysql2": "^2.2.5",
     "sequelize": "^6.5.0"
   }
